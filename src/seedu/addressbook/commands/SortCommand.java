@@ -6,7 +6,8 @@ import java.util.List;
 
 
 /**
- * Lists all persons in the address book to the user.
+ * Lists all persons in the address book to the user, sorted by lexicographical order
+ * of name.
  */
 public class SortCommand extends Command {
 
